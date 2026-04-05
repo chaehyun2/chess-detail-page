@@ -275,7 +275,7 @@
   position: relative;
   z-index: 3;
   width: 320px;
-  height: 297px;
+  height: auto;
   flex-shrink: 0;
   margin: 0 0 43px 0;
 }
@@ -286,20 +286,17 @@
   left: 50%;
   transform: translateX(-50%);
   width: 320px;
-  height: 297px;
+  height: 100%;
   background-color: var(--c---ba-255-206-34-0-1-);
   border: 1px solid var(--c-ffce22);
   border-radius: 10px;
 }
 
 .n-5-257 {
-  position: absolute;
-  top: 20px;
-  left: 50%;
+  position: relative;
   z-index: 1;
-  transform: translateX(-50%);
   width: 292px;
-  height: 257px;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
