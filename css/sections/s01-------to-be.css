@@ -3974,3 +3974,24 @@
   color: var(--c-000000);
 }
 
+
+/* Review cards without profile image */
+.review-no-image .n-5-447,
+.review-no-image .n-5-468,
+.review-no-image .n-5-489 {
+  left: 15px;
+}
+.review-no-image .n-5-433,
+.review-no-image .n-5-454,
+.review-no-image .n-5-475 {
+  position: absolute;
+  top: 15px;
+  right: 12px;
+  left: auto;
+}
+.review-no-image .n-5-451,
+.review-no-image .n-5-472,
+.review-no-image .n-5-493 {
+  left: 15px;
+  width: 290px;
+}
